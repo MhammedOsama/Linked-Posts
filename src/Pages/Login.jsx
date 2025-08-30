@@ -4,7 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { sendLoginData } from "../Services/authServices";
 import { useContext, useState } from "react";
-import { schema } from "../Schema/loginSchema ";
+import { schema } from "../Schema/loginSchema";
 import { AuthContext } from "../Context/AuthContext";
 
 function Login() {
